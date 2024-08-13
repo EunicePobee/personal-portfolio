@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
 
 /* Variables */
 :root {
@@ -8,8 +10,8 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --primary-color: #03040f;
+  --secondary-color: #5335ff;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -63,6 +65,10 @@ nav {
 
   nav h1 {
     color: var(--primary-color);
+    font-family: "Leckerli One", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 45px;
   }
   
   nav a {
@@ -124,7 +130,7 @@ nav {
 
   .more-about {
     background-color: var(--bg-color);
-    padding: 1rem 6rem;
+    padding: 4rem 6rem;
   }
   
   .more-about h2 {
@@ -270,8 +276,8 @@ nav {
   }
 
   .submit-btn:hover {
-    background-color: var(--primary-color);
-    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
     cursor: pointer;
   }
 
@@ -356,7 +362,7 @@ nav {
 
       .more-about {
         margin-top: 2rem;
-        padding: 1rem 3.5rem;
+        padding: 2.5rem 3.5rem;
       }
     
       .more-about h2 {
